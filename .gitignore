@@ -1,0 +1,50 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+
+# Virtual environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints
+*.ipynb
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Model weights (too large for git; use Git LFS or external storage)
+*.pt
+*.pth
+*.ckpt
+*.h5
+
+# Temporary outputs
+*.tmp
+*.log
+build/
+dist/
+*.cache
+
+# Large simulation outputs (NOT processed/curated data)
+synthetic_corpus_full/
+training_runs/
+*.intermediate.npy
+
+# OS
+.fuse_hidden*

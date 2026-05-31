@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this code or data, please cite the associated manuscript."
+title: "ukedo-physics-aware-unet: Physics-aware deep learning for UAV radiation map reconstruction"
+authors:
+  - family-names: "Kim"
+    given-names: "Byoung-Jik"
+    affiliation: "Changwon National University, Department of Nuclear Engineering"
+    # orcid: "https://orcid.org/0000-0000-0000-0000"  # uncomment and fill after ORCID registration
+repository-code: "https://github.com/BJ2CWNU/ukedo-physics-aware-unet"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Kim"
+      given-names: "Byoung-Jik"
+  title: "Physics-aware deep learning reconstructs ground contamination from sparse UAV radiation measurements over the Fukushima Ukedo basin without field training"
+  journal: "Remote Sensing"
+  year: 2026
+  notes: "in review"

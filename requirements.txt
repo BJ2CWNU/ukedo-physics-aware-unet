@@ -1,0 +1,23 @@
+# Python dependencies for ukedo-physics-aware-unet
+# Versions match the code ground truth used in the manuscript experiments
+
+# Deep learning
+torch>=2.0
+torchvision>=0.15
+
+# Numerical computing
+numpy>=1.24
+scipy==1.17.1  # Used by PyKrige; not used directly by IDW (which is pure PyTorch)
+
+# Kriging baseline
+PyKrige==1.7.3
+
+# Data handling
+pandas>=2.0
+
+# Plotting
+matplotlib>=3.7
+
+# DOCX manipulation (for tools/insert_figures.py)
+python-docx>=1.2.0
+lxml>=4.9
